@@ -167,4 +167,4 @@ html_content = """
 """
 
 # Embed the HTML content using st.components.v1.html
-components.html(html_content, height=400)
+components.html(html_content, height=600, width=800)
