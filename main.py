@@ -166,11 +166,4 @@ html_content = """
 
 """
 
-# Embed the HTML content using st.components.v1.html
-    st.write("## Displaying HTML Content:")
-    components.html(html_content, height=400)
-
-    st.write("---")
-    st.write("This is regular Streamlit content below the embedded HTML.")
-
 
